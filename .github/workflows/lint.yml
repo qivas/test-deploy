@@ -15,7 +15,7 @@ jobs:
             node-version: '14'
 
       - run: npm install
-        -
+
       - name: Run the lint script
         run : npm run lint
 
